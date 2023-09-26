@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Testing\\php\\UserTest::testClassConstructor":7,"Testing\\php\\UserTest::testName":7,"Testing\\php\\UserTest::testAge":7,"Testing\\php\\UserTest::testMovies":7},"times":{"Testing\\php\\UserTest::testClassConstructor":0.02,"Testing\\php\\UserTest::testName":0.006,"Testing\\php\\UserTest::testAge":0,"Testing\\php\\UserTest::testMovies":0.015}}

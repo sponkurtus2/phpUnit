@@ -1,0 +1,22 @@
+{
+  "name": "testing/php",
+  "description": "Codigo para hacer testing con php",
+  "require": {
+    "phpunit/phpunit": "^10.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Testing\\Php\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "sponkurtus2",
+      "email": "sponkurtus3@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "phpunit Tests/UserTest.php",
+    "test-name": "phpunit Tests/UserTest.php --filter testName"
+  }
+}
