@@ -23,7 +23,7 @@ final class UserTest extends TestCase {
     }
 
     public function testMovies() {
-        $this->assertEmpty($this->user->favorite_movies, "Peliculas vacias");
+        $this->assertEmpty($this->user->favorite_movies, "Peliculas no vacias");
     }
 
 }
